@@ -5,7 +5,7 @@ from numpy import array
 import math
 from numpy import *
 
-"""img = Image.open("j.jpg")
+img = Image.open("j.jpg")
 arr = array(img)
 print(arr)
 s = shape(arr)
@@ -16,29 +16,13 @@ a = m % 4
 b = n % 4
 print(a, b)
 
-if (a != 0) and (b != 0):
+"""if (a != 0) and (b != 0):
     arr1 = zeros(((4-a), (4-b)), int)
 elif (a != 0)and(b == 0):
     arr1 = zeros(((4 - a),), int)
 elif (a == 0)and(b != 0):
  arr1 =  zeros(((4-b)), int)
-print(arr1)
-
-
-
-#converting matrix into image
-#img = Image.fromarray(arr)
-#img.save("output.png")
-#from scipy import ndimage
-#import matplotlib.pyplot as plt
-#from scipy import misc
-#f = misc.face()
-#misc.imsave('j.jpg', f)
-#plt.imshow(f)
-#plt.show() """
-
-# Basic operation for every matrix
-
+print(arr1)"""
 
 c = 0
 m1 = matrix('1 2 3 4; 4 5 6 7 ; 7 8 9 1; 1 2 3 4')
@@ -47,6 +31,7 @@ m = sh[0]
 n = sh[1]
 print("the size of m1", sh)
 print(m1)
+#Calculating mean and standard deviation
 mean = mean(m1)
 std = m1.std()
 print("mean =  ", mean)
